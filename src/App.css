@@ -2,37 +2,237 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-wrapper{
+  max-width: 1000px;
+  height: 500px;
+  margin: auto;
+  display: flex;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.welcome_text-wrapper{
+  flex: .5;
+  background-color: #d8fae9;
+  height: 100%;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input_wrapper{
+  flex: .5;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.input_wrapper h6{
+  margin-top: -5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input_wrapper a{
+  text-decoration:  none;
+  color: green;
+  margin-left:10px ;
+  text-transform: capitalize;
+}
+a{
+  text-decoration:  none;
+  color: black;
+}
+.input-container{
+  width: 310px;
+  margin: -20px auto 0 auto;
+}
+.input-container label{
+  text-align: start;
+  display: block;
+  margin: 15px 0 0 15px;
+}
+.input-container input{
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #000;
+   padding: 0 10px;
+}
+.input-container button{
+  width: 200px;
+  height: 40px;
+  background-color: green;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+.home-wrapper{
+  max-width: 1000px;
+  margin: auto;
+  height: 500px;
+}
+header{
+  max-width: 100%;
+  text-align: start;
+  height:auto;
+  margin: auto;
+}
+.data-details {
+  text-align: start;
+}
+.data-details ul{
+ list-style: none;
+ height: 50px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.data-details ul li{
+ text-transform: capitalize;
+ cursor: pointer;
+}
+.input-wrapper{
+  max-width: 800px;
+  height: auto;
+  margin: auto;
+}
+.input-wrapper input{
+  width:90%;
+  height: 40px;
+  margin-top: 20px;
+  padding: 0 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #000;
+}
+.table-wrapper{
+  max-width: 600px;
+  margin: auto;
+  height: auto;
+}
+.table-wrapper table{
+  width: 100%;
+  margin-top: 20px;
+}
+.circ-wrapper{
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.circ{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+.active{
+  background-color: green;
+  padding: 5px 10px;
+}
+.invoice-wrapper{
+  max-width: 1000px;
+  margin: auto;
+  height: auto;
+  text-align: start;
+  padding-top: 20px;
+}
+select{
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #000;
+  height: 40px;
+}
+.data-wrapper{
+  width: 90%;
+  margin:20px auto;
+  height: auto;
+}
+.data-handler{
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+.text-wrapper{
+  flex: .3;
+  height: 80%;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.select-wrapper{
+  max-width: 90%;
+  margin: auto;
+}
+.data-input-wrapper{
+  flex: .6;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.data-input-wrapper input{
+  width: 200px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding:0 10px;
+  margin-top: 10px;
+}
+.btn-add{
+  text-align: end;
+  width: 100%;
+  height: auto;
+}
+.btn-add button,.btns button{
+  width: 150px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-add button,.save{
+  background-color: green;
+  color: #fff;
+  border: none;
+}
+.data-table{
+  max-width: 90%;
+  margin: auto;  
+}
+.items-added{
+  max-width: 90%;
+  height: 200px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin:10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-wrapper{
+  max-width: 90%;
+  margin:20px auto;
+}
+.btn-wrapper input {
+  width: 98%;
+  height: 40px;
+  margin: auto;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding:0 10px;
+}
+.btns{
+  width: 90%;
+  height: auto;
+  margin:20px auto;
+  text-align: end;
+}
+.save{
+ margin-left: 30px;
 }
